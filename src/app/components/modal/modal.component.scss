@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content .upper {
+  background: #1080e18c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mat-dialog-title {
+  margin: 0 5px;
+}
+
+.container {
+  height: 350px;
+  width: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.container-1{
+  width: 50rem;
+}
+.parent-container {
+  display: flex;
+}
+.parent-container > * {
+  flex: auto;
+}
+table {
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container{
+    padding: 1rem;
+}
